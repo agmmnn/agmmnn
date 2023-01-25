@@ -17,7 +17,7 @@ jobs:
       - name: Generate README.md
         uses: teoxoy/profile-readme-stats@master
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.USER_TOKEN }}
       - name: Update README.md
         shell: bash
         run: |
