@@ -1,8 +1,9 @@
 name: Update stats
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *" # every 24 hours
+    - cron: "0 21 * * *" # every 24 hours
   push:
     branches:
       - master
