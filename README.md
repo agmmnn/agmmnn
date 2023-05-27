@@ -13,6 +13,11 @@ Ever since I joined GitHub, I pushed **961** commits, opened **10** issues, subm
 ❯ &nbsp;**[Posts](https://agmmnn.dev/blog)**
 
 <!-- BLOG-POST-LIST:START -->
+- [AstroPaper 2.0](https://astro-paper.pages.dev/posts/astro-paper-2/)
+- [Dynamic OG image generation in AstroPaper blog posts](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/)
+- [Predefined color schemes](https://astro-paper.pages.dev/posts/predefined-color-schemes/)
+- [Customizing AstroPaper theme color schemes](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
+- [Adding new posts in AstroPaper theme](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/)
 <!-- BLOG-POST-LIST:END -->
 
 ⁛ &nbsp;**[Projects](https://agmmnn.dev/projects)**
