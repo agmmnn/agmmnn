@@ -1,6 +1,3 @@
-<a href="https://www.youtube.com/watch?v=m_GoB8SFOeM">
-<img align="left" src="https://github.com/agmmnn/agmmnn/assets/16024979/e5c57b01-758d-42fd-9926-81bace9299d6" width="130" /></a>
-
 ### Hey!
 
 Ever since I joined GitHub, I pushed **{{ COMMITS }}** commits, opened **{{ ISSUES }}** issues, submitted **{{ PULL_REQUESTS }}** pull requests, received **{{ STARS }}** stars across **{{ REPOSITORIES }}** personal projects, and contributed to **{{ REPOSITORIES_CONTRIBUTED_TO }}** public repositories.
