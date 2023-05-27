@@ -10,7 +10,7 @@ Ever since I joined GitHub, I pushed **{{ COMMITS }}** commits, opened **{{ ISSU
 <a href="https://www.youtube.com/watch?v=EyO4jjnQcfI">
 <img align="right" src="https://user-images.githubusercontent.com/16024979/164562040-e1cf2d5a-ca27-4060-9c83-d8fd0fd22622.png" width="160" /></a>
 
-### ❯ [Posts](https://agmmnn.dev/blog)
+❯ &nbsp;**[Posts](https://agmmnn.dev/blog)**
 
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
@@ -18,7 +18,7 @@ Ever since I joined GitHub, I pushed **{{ COMMITS }}** commits, opened **{{ ISSU
 - [Post 1](https://github.com/gautamkrishnar/blog-post-workflow)
 - [Post 2](https://github.com/gautamkrishnar/blog-post-workflow)
 
-### ⁛ [Projects](https://agmmnn.dev/projects)
+⁛ &nbsp;**[Projects](https://agmmnn.dev/projects)**
 
 - _Radyal: Browser Extension_ soon...
 - [Tauri UI: Create modern desktop apps](https://github.com/agmmnn/tauri-ui)
