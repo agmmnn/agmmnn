@@ -22,6 +22,7 @@ jobs:
         with:
           token: ${{ secrets.USER_TOKEN }}
       - name: Update README.md
+        shell: bash
         run: |
           if [[ "$(git status --porcelain)" != "" ]]; then
             git config user.name 'github-actions[bot]'
@@ -30,7 +31,6 @@ jobs:
             git commit -m "Update README.md"
             git push
           fi
-          name: Update this repo's README with latest blog posts
 
   update-readme-with-blog:
     name: Update this repo's README with latest blog posts
