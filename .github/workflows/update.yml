@@ -34,4 +34,4 @@ jobs:
       - name: Update Blog Posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://medium.com/feed/@odayibasi"
+          feed_list: "https://agmmnn.dev/rss.xml"
