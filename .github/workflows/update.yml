@@ -1,5 +1,4 @@
-name: Update stats
-
+name: Update
 on:
   workflow_dispatch:
   schedule:
@@ -7,6 +6,9 @@ on:
   push:
     branches:
       - master
+
+permissions:
+  contents: write
 
 jobs:
   publish:
@@ -29,3 +31,13 @@ jobs:
             git commit -m "Update README.md"
             git push
           fi
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Pull in dev.to posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://medium.com/feed/@odayibasi"
