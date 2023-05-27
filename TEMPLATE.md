@@ -15,9 +15,6 @@ Ever since I joined GitHub, I pushed **{{ COMMITS }}** commits, opened **{{ ISSU
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
-- [Post 1](https://github.com/gautamkrishnar/blog-post-workflow)
-- [Post 2](https://github.com/gautamkrishnar/blog-post-workflow)
-
 ⁛ &nbsp;**[Projects](https://agmmnn.dev/projects)**
 
 - _Radyal: Browser Extension_ soon...
