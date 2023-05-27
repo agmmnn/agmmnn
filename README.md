@@ -3,12 +3,12 @@
 
 ### Hey!
 
-Ever since I joined GitHub, I pushed **943** commits, opened **10** issues, submitted **18** pull requests, received **3160** stars across **57** personal projects, and contributed to **9** public repositories.
+Ever since I joined GitHub, I pushed **945** commits, opened **10** issues, submitted **18** pull requests, received **3160** stars across **57** personal projects, and contributed to **9** public repositories.
 
 [![gpg](https://img.shields.io/badge/gpg-399BB7FF25D68355-313131?style=flat&labelColor=4f4f4f&color=313131)](https://github.com/agmmnn.gpg) [![views](https://komarev.com/ghpvc/?username=agmmnn&style=flat&color=313131&label=views)](https://github.com/agmmnn) [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@agmmnn) [![dev](https://img.shields.io/badge/agmmnn.dev-313e80?style=flat&logo=&logoColor=white)](https://agmmnn.dev/) [![HF](https://img.shields.io/badge/Hugging%20Face-ffbd09?style=flat&logo=&logoColor=white)](https://huggingface.co/agmmnn)
 
-<a href="https://www.youtube.com/watch?v=m_GoB8SFOeM">
-<img align="right" src="https://user-images.githubusercontent.com/16024979/164562040-e1cf2d5a-ca27-4060-9c83-d8fd0fd22622.png" width="150" /></a>
+<a href="https://www.youtube.com/watch?v=EyO4jjnQcfI">
+<img align="right" src="https://user-images.githubusercontent.com/16024979/164562040-e1cf2d5a-ca27-4060-9c83-d8fd0fd22622.png" width="160" /></a>
 
 ### ❯ [Posts](https://agmmnn.dev/blog)
 
