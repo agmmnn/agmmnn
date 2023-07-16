@@ -1,6 +1,6 @@
 ### Hey! [✨](https://github.com/agmmnn/starred)
 
-It's Gökçe. Ever since I joined GitHub, I pushed **1062** commits, opened **10** issues, submitted **18** pull requests, received **[3430](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** stars across **[59](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)** personal projects, and contributed to **[9](https://github.com/pulls?q=is%3Apr+author%3Aagmmnn)** public repositories.
+It's Gökçe. Ever since I joined GitHub, I pushed **1063** commits, opened **10** issues, submitted **18** pull requests, received **[3434](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** stars across **[59](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)** personal projects, and contributed to **[9](https://github.com/pulls?q=is%3Apr+author%3Aagmmnn)** public repositories.
 
 - I like to write with **Typescript**, **Python**, and **Rust**.
 - Frameworks I like to use are **Next.js**, **React**, **Prisma**, **Tauri**, **Plasmo**.
@@ -15,8 +15,6 @@ It's Gökçe. Ever since I joined GitHub, I pushed **1062** commits, opened **10
 ❯ &nbsp;**[Posts](https://agmmnn.dev/blog)**
 
 <!-- BLOG-POST-LIST:START -->
-- [How to configure AstroPaper theme](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/)
-- [Tailwind Typography Plugin](https://astro-paper.pages.dev/posts/tailwind-typography-plugin/)
 <!-- BLOG-POST-LIST:END -->
 
 ⁛ &nbsp;**[Projects](https://agmmnn.dev/projects)**
@@ -30,7 +28,7 @@ It's Gökçe. Ever since I joined GitHub, I pushed **1062** commits, opened **10
 <details>
 <summary>Others</summary>
 
-- Lists: [awesome-blender](https://github.com/agmmnn/awesome-blender), [turkish-nlp-resources](https://github.com/agmmnn/turkish-nlp-resources)
+- Lists: [awesome-blender](https://github.com/agmmnn/awesome-blender), [turkish-nlp-resources](https://github.com/agmmnn/turkish-nlp-resources), [tr-domains](https://github.com/agmmnn/tr-domains)
 - Tools: [fineartdown](https://github.com/agmmnn/fineartdown), [polydown](https://github.com/agmmnn/polydown)
 - Cli: [syn](https://github.com/agmmnn/syn), [nis](https://github.com/agmmnn/nisanyan-cli), [tdk](https://github.com/agmmnn/tdk-cli), [tureng](https://github.com/agmmnn/turengcli), [etym](https://github.com/agmmnn/etym-cli)
 
