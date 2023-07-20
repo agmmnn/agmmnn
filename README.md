@@ -12,6 +12,10 @@ Mostly writing in **Typescript**, **Python** and **Rust**. The frameworks that I
 ❯ &nbsp;**[Posts](https://agmmnn.dev/blog)**
 
 <!-- BLOG-POST-LIST:START -->
+- [SSL Pinning Bypass For Android Using Frida](https://agmmnn.dev/blog/ssl-pinning-bypass-for-android-using-frida/)
+- [Installing Burp Suite Certificate in an Android Emulator](https://agmmnn.dev/blog/installing-burp-suite-certificate-in-an-android-emulator/)
+- [Keep Your Disk Clean, Developers](https://agmmnn.dev/blog/keep-your-disk-clean-developers/)
+- [Useful Regex Snippets for Data Processing](https://agmmnn.dev/blog/useful-regex-snippets-for-data-processing/)
 <!-- BLOG-POST-LIST:END -->
 
 ⁛ &nbsp;**[Projects](https://agmmnn.dev/projects)**
