@@ -12,6 +12,8 @@ Mostly writing in **Typescript**, **Python** and **Rust**. The frameworks that I
 ❯ &nbsp;**[Posts](https://agmmnn.dev/blog)**
 
 <!-- BLOG-POST-LIST:START -->
+- [SSL Pinning Bypass For Android Using Frida](https://agmmnn.dev/posts/ssl-pinning-bypass-for-android-using-frida/)
+- [Installing Burp Suite Certificate in an Android Emulator](https://agmmnn.dev/posts/installing-burp-suite-certificate-in-an-android-emulator/)
 <!-- BLOG-POST-LIST:END -->
 
 ⁛ &nbsp;**[Projects](https://agmmnn.dev/projects)**
