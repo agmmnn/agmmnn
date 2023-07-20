@@ -12,6 +12,8 @@ Mostly writing in **Typescript**, **Python** and **Rust**. The frameworks that I
 ❯ &nbsp;**[Posts](https://agmmnn.dev/blog)**
 
 <!-- BLOG-POST-LIST:START -->
+- [How to configure AstroPaper theme](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/)
+- [Tailwind Typography Plugin](https://astro-paper.pages.dev/posts/tailwind-typography-plugin/)
 <!-- BLOG-POST-LIST:END -->
 
 ⁛ &nbsp;**[Projects](https://agmmnn.dev/projects)**
