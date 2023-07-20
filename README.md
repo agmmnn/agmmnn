@@ -12,6 +12,9 @@ Mostly writing in **Typescript**, **Python** and **Rust**. The frameworks that I
 ❯ &nbsp;**[Posts](https://agmmnn.dev/blog)**
 
 <!-- BLOG-POST-LIST:START -->
+- [SSL Pinning Bypass For Android Using Frida](https://agmmnn.dev/blog/ssl-pinning-bypass-for-android-using-frida/)
+- [Installing Burp Suite Certificate in an Android Emulator](https://agmmnn.dev/blog/installing-burp-suite-certificate-in-an-android-emulator/)
+- [Cleaning Disk for Developers; Essential Commands to Free up Space](https://agmmnn.dev/blog/cleaning-disk-for-developers-essential-commands-to-free-up-space/)
 <!-- BLOG-POST-LIST:END -->
 
 ⁛ &nbsp;**[Projects](https://agmmnn.dev/projects)**
