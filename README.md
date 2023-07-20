@@ -1,6 +1,6 @@
 ### Hey! [✨](https://github.com/agmmnn/starred)
 
-It's Gökçe. Ever since I joined GitHub, I pushed **1064** commits, opened **10** issues, submitted **18** pull requests, received **[3460 stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[55 personal](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)** projects, and contributed to **[9 public](https://github.com/pulls?q=author%3Aagmmnn)** repositories.
+It's Gökçe. Ever since I joined GitHub, I pushed **1074** commits, opened **10** issues, submitted **18** pull requests, received **[3460 stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[55 personal](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)** projects, and contributed to **[9 public](https://github.com/pulls?q=author%3Aagmmnn)** repositories.
 
 Mostly writing in **Typescript**, **Python** and **Rust**. The frameworks that I like to use are **Next.js**, **React**, **Prisma**, **Tauri**, **Plasmo**. Fan of [terminal UI](https://github.com/topics/tui). Pentesting and reverse engineering in spare time.
 
@@ -12,8 +12,6 @@ Mostly writing in **Typescript**, **Python** and **Rust**. The frameworks that I
 ❯ &nbsp;**[Posts](https://agmmnn.dev/blog)**
 
 <!-- BLOG-POST-LIST:START -->
-- [How to configure AstroPaper theme](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/)
-- [Tailwind Typography Plugin](https://astro-paper.pages.dev/posts/tailwind-typography-plugin/)
 <!-- BLOG-POST-LIST:END -->
 
 ⁛ &nbsp;**[Projects](https://agmmnn.dev/projects)**
