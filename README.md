@@ -1,6 +1,6 @@
 ### Hey! [✨](https://github.com/agmmnn/starred)
 
-It's Gökçe. Ever since I joined GitHub, I pushed **1247** commits, opened **14** issues, submitted **18** pull requests, received **[4247 stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[60 personal](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)** projects, and contributed to **[10 public](https://github.com/pulls?q=author%3Aagmmnn)** repositories.
+It's Gökçe. Ever since I joined GitHub, I pushed **1247** commits, opened **14** issues, submitted **18** pull requests, received **[4255 stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[60 personal](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)** projects, and contributed to **[10 public](https://github.com/pulls?q=author%3Aagmmnn)** repositories.
 
 Mostly writing in **Typescript**, **Python** and **Rust**. The frameworks that I like to use are **Next.js**, **React**, **Svelte/Sveltekit**, **Prisma**, **Tauri**, **Plasmo**. Fan of [terminal UI](https://github.com/topics/tui), enjoy exploring topics like pentesting and reverse engineering in my spare time.
 
@@ -12,9 +12,6 @@ Mostly writing in **Typescript**, **Python** and **Rust**. The frameworks that I
 ❯ &nbsp;**[Posts](https://agmmnn.dev/blog)**
 
 <!-- BLOG-POST-LIST:START -->
-- [SSL Pinning Bypass For Android Using Frida](https://agmmnn.dev/blog/ssl-pinning-bypass-for-android-using-frida/)
-- [Installing Burp Suite Certificate in an Android Emulator](https://agmmnn.dev/blog/installing-burp-suite-certificate-in-an-android-emulator/)
-- [Keep Your Disk Clean, Developers](https://agmmnn.dev/blog/keep-your-disk-clean-developers/)
 <!-- BLOG-POST-LIST:END -->
 
 ⁛ &nbsp;**[Projects](https://agmmnn.dev/projects)**
