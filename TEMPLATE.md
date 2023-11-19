@@ -19,15 +19,8 @@ Mostly writing in **Typescript**, **Python** and **Rust**. The frameworks that I
 - _**Radyal**: AI-powered translation and summarization for browsing... (soon)_
 - [**Tauri UI**: Create modern desktop apps](https://github.com/agmmnn/tauri-ui)
 - [**EtyMap**: Etymology map](https://etymap.vercel.app/)
-  <!-- - [**Artphora**: AI image manager, batch downloader]() -->
-  <!-- - [**Badgetw**: Tailwind styled badges]() -->
 
-<details>
-<summary>Others</summary>
-
-- Lists: [awesome-blender](https://github.com/agmmnn/awesome-blender), [turkish-nlp-resources](https://github.com/agmmnn/turkish-nlp-resources), [tr-domains](https://github.com/agmmnn/tr-domains)
-- Tools: [fineartdown](https://github.com/agmmnn/fineartdown), [polydown](https://github.com/agmmnn/polydown)
-- Cli: [syn](https://github.com/agmmnn/syn), [nis](https://github.com/agmmnn/nisanyan-cli), [tdk](https://github.com/agmmnn/tdk-cli), [tureng](https://github.com/agmmnn/turengcli), [etym](https://github.com/agmmnn/etym-cli)
-- [tauri-controls](https://github.com/agmmnn/tauri-controls), [badgewind](https://github.com/agmmnn/badgewind)
-
-</details>
+* Lists: [awesome-blender](https://github.com/agmmnn/awesome-blender), [turkish-nlp-resources](https://github.com/agmmnn/turkish-nlp-resources), [tr-domains](https://github.com/agmmnn/tr-domains)
+* Tools: [fineartdown](https://github.com/agmmnn/fineartdown), [polydown](https://github.com/agmmnn/polydown)
+* Cli: [syn](https://github.com/agmmnn/syn), [nis](https://github.com/agmmnn/nisanyan-cli), [tdk](https://github.com/agmmnn/tdk-cli), [tureng](https://github.com/agmmnn/turengcli), [etym](https://github.com/agmmnn/etym-cli)
+* [tauri-controls](https://github.com/agmmnn/tauri-controls), [badgewind](https://github.com/agmmnn/badgewind)
