@@ -12,6 +12,9 @@ Mostly writing in **Typescript**, **Python** and **Rust**. The frameworks that I
 ❯ &nbsp;**[Posts](https://agmmnn.dev/blog)**
 
 <!-- BLOG-POST-LIST:START -->
+- [Quickly Test Your Webhooks with Cloudflare Tunnel](https://agmmnn.dev/blog/quickly-test-local-webhooks/)
+- [SSL Pinning Bypass For Android Using Frida](https://agmmnn.dev/blog/ssl-pinning-bypass-with-frida/)
+- [Installing Burp Suite Certificate in an Android Emulator](https://agmmnn.dev/blog/burp-suite-android/)
 <!-- BLOG-POST-LIST:END -->
 
 ⁛ &nbsp;**[Projects](https://agmmnn.dev/projects)**
