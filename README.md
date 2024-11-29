@@ -1,8 +1,8 @@
 ### Hey! [✨](https://github.com/agmmnn/starred)
 
-It's Gökçe. Ever since I joined GitHub, I pushed **1367** commits, opened **14** issues, submitted **20** pull requests, received **[7282 stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[72 personal](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)** projects, and contributed to **[0 public](https://github.com/pulls?q=author%3Aagmmnn)** repositories.
+It's Gökçe. Ever since I joined GitHub, I pushed **1369** commits, opened **14** issues, submitted **20** pull requests, received **[7290 stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[72 personal](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)** projects, and contributed to **[0 public](https://github.com/pulls?q=author%3Aagmmnn)** repositories.
 
-Mostly writing in **Typescript**, **Python** and **Rust**. The frameworks that I like to use are **Next.js**, **React**, **Svelte/Sveltekit**, **Prisma**, **Tauri**, **Plasmo**. Fan of terminal UI, enjoy exploring topics like pentesting and reverse engineering in my spare time.
+I work primarily with **TypeScript**, **Python**, and **Rust**, passionate about building interactive, scalable solutions using **AI bots**, **LLMs**, and **real-time communication technologies**. A fan of **terminal UIs**, enjoy exploring **pentesting** and **reverse engineering**, and also enjoy **travel photography** and **videography** in spare time.
 
 [![gpg](https://img.shields.io/badge/gpg-399BB7FF25D68355-313131?style=flat&labelColor=4f4f4f&color=313131)](https://github.com/agmmnn.gpg) [![views](https://komarev.com/ghpvc/?username=agmmnn&style=flat&color=313131&label=views)](https://github.com/agmmnn) [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@agmmnn) [![dev](https://img.shields.io/badge/agmmnn.dev-313e80?style=flat&logo=&logoColor=white)](https://agmmnn.dev/) [![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/agmmnn/datasets)
 
@@ -12,9 +12,6 @@ Mostly writing in **Typescript**, **Python** and **Rust**. The frameworks that I
 ❯ &nbsp;**[Posts](https://agmmnn.dev/blog)**
 
 <!-- BLOG-POST-LIST:START -->
-- [Quickly Test Your Webhooks with Cloudflare Tunnel](https://agmmnn.dev/blog/quickly-test-local-webhooks/)
-- [SSL Pinning Bypass For Android Using Frida](https://agmmnn.dev/blog/ssl-pinning-bypass-with-frida/)
-- [Installing Burp Suite Certificate in an Android Emulator](https://agmmnn.dev/blog/burp-suite-android/)
 <!-- BLOG-POST-LIST:END -->
 
 ⁛ &nbsp;**[Projects](https://agmmnn.dev/projects)**
