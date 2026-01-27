@@ -1,6 +1,6 @@
 ### Hey! [✨](https://github.com/agmmnn/starred)
 
-It's Gökçe. Ever since I joined GitHub, I pushed **1472** commits, opened **15** issues, submitted **20** pull requests, received **[9650 stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[78 personal](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)** projects, and contributed to **[3 public](https://github.com/pulls?q=author%3Aagmmnn)** repositories.
+It's Gökçe. Ever since I joined GitHub, I pushed **1477** commits, opened **15** issues, submitted **20** pull requests, received **[9651 stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[79 personal](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)** projects, and contributed to **[3 public](https://github.com/pulls?q=author%3Aagmmnn)** repositories.
 
 I work primarily with **TypeScript**, **Python**, and **Rust**, passionate about building interactive, scalable solutions using **AI bots**, **LLMs**, and **real-time communication technologies**. A fan of **terminal UIs**, enjoy exploring **pentesting** and **reverse engineering**, and also enjoy **travel photography** and **videography** in spare time.
 
