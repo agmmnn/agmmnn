@@ -1,29 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="216" viewBox="0 0 300 216">
-  <text x="16" y="34" fill="#e6edf3" font-size="14" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">🔥 ON FIRE — 90/100</text>
-  <text x="48" y="64" fill="#8b949e" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Jan</text>
-  <text x="16" y="82" fill="#8b949e" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Mon</text>
-  <text x="16" y="110" fill="#8b949e" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Wed</text>
-  <text x="16" y="138" fill="#8b949e" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Fri</text>
-  <rect x="48" y="72" width="12" height="12" rx="2" ry="2" fill="#161b22"><title>2026-01-19: No activity</title></rect>
-  <rect x="48" y="86" width="12" height="12" rx="2" ry="2" fill="#0e4429"><title>2026-01-20: 685 tokens</title></rect>
-  <rect x="48" y="100" width="12" height="12" rx="2" ry="2" fill="#26a641"><title>2026-01-21: 5,344 tokens</title></rect>
-  <rect x="48" y="114" width="12" height="12" rx="2" ry="2" fill="#39d353"><title>2026-01-22: 12,723 tokens</title></rect>
-  <rect x="48" y="128" width="12" height="12" rx="2" ry="2" fill="#0e4429"><title>2026-01-23: 152 tokens</title></rect>
-  <rect x="48" y="142" width="12" height="12" rx="2" ry="2" fill="#006d32"><title>2026-01-24: 4,080 tokens</title></rect>
-  <rect x="48" y="156" width="12" height="12" rx="2" ry="2" fill="#0e4429"><title>2026-01-25: 1,142 tokens</title></rect>
-  <rect x="62" y="72" width="12" height="12" rx="2" ry="2" fill="#006d32"><title>2026-01-26: 3,959 tokens</title></rect>
-  <rect x="62" y="86" width="12" height="12" rx="2" ry="2" fill="#39d353"><title>2026-01-27: 12,306 tokens</title></rect>
-  <rect x="62" y="100" width="12" height="12" rx="2" ry="2" fill="#161b22"><title>2026-01-28: No activity</title></rect>
-  <rect x="62" y="114" width="12" height="12" rx="2" ry="2" fill="#161b22"><title>2026-01-29: No activity</title></rect>
-  <rect x="62" y="128" width="12" height="12" rx="2" ry="2" fill="#161b22"><title>2026-01-30: No activity</title></rect>
-  <rect x="62" y="142" width="12" height="12" rx="2" ry="2" fill="#161b22"><title>2026-01-31: No activity</title></rect>
-  <rect x="62" y="156" width="12" height="12" rx="2" ry="2" fill="#26a641"><title>2026-02-01: 5,040 tokens</title></rect>
-  <text x="48" y="184" fill="#8b949e" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Less</text>
-  <rect x="78" y="174" width="12" height="12" rx="2" ry="2" fill="#161b22"/>
-  <rect x="93" y="174" width="12" height="12" rx="2" ry="2" fill="#0e4429"/>
-  <rect x="108" y="174" width="12" height="12" rx="2" ry="2" fill="#006d32"/>
-  <rect x="123" y="174" width="12" height="12" rx="2" ry="2" fill="#26a641"/>
-  <rect x="138" y="174" width="12" height="12" rx="2" ry="2" fill="#39d353"/>
-  <text x="157" y="184" fill="#8b949e" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">More</text>
-  <text x="284" y="184" text-anchor="end" fill="#8b949e" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">synced 23m ago</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="666" height="415" viewBox="0 0 666 415">
+  <text x="16" y="38" fill="#e6edf3" font-size="15" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">🔥 ON FIRE — 90/100</text>
+  <text x="650" y="38" text-anchor="end" fill="#8b949e" font-size="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">February 2026</text>
+  <text x="60" y="76" text-anchor="middle" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">Mon</text>
+  <text x="151" y="76" text-anchor="middle" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">Tue</text>
+  <text x="242" y="76" text-anchor="middle" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">Wed</text>
+  <text x="333" y="76" text-anchor="middle" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">Thu</text>
+  <text x="424" y="76" text-anchor="middle" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">Fri</text>
+  <text x="515" y="76" text-anchor="middle" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">Sat</text>
+  <text x="606" y="76" text-anchor="middle" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">Sun</text>
+  <rect x="16" y="88" width="88" height="52" rx="4" fill="#161b22" opacity="0.3"/>
+  <rect x="107" y="88" width="88" height="52" rx="4" fill="#161b22" opacity="0.3"/>
+  <rect x="198" y="88" width="88" height="52" rx="4" fill="#161b22" opacity="0.3"/>
+  <rect x="289" y="88" width="88" height="52" rx="4" fill="#161b22" opacity="0.3"/>
+  <rect x="380" y="88" width="88" height="52" rx="4" fill="#161b22" opacity="0.3"/>
+  <rect x="471" y="88" width="88" height="52" rx="4" fill="#161b22" opacity="0.3"/>
+  <rect x="562" y="88" width="88" height="52" rx="4" fill="#26a641"/>
+  <text x="570" y="104" fill="#e6edf3" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">1</text>
+  <text x="606" y="126" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="700" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">5.0k</text>
+  <rect x="16" y="143" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="24" y="159" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">2</text>
+  <rect x="107" y="143" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="115" y="159" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">3</text>
+  <rect x="198" y="143" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="206" y="159" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">4</text>
+  <rect x="289" y="143" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="297" y="159" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">5</text>
+  <rect x="380" y="143" width="88" height="52" rx="4" fill="#161b22"/>
+  <rect x="380" y="143" width="88" height="52" rx="4" fill="none" stroke="#8b949e" stroke-width="1.5"/>
+  <text x="388" y="159" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">6</text>
+  <rect x="471" y="143" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="479" y="159" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">7</text>
+  <rect x="562" y="143" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="570" y="159" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">8</text>
+  <rect x="16" y="198" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="24" y="214" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">9</text>
+  <rect x="107" y="198" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="115" y="214" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">10</text>
+  <rect x="198" y="198" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="206" y="214" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">11</text>
+  <rect x="289" y="198" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="297" y="214" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">12</text>
+  <rect x="380" y="198" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="388" y="214" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">13</text>
+  <rect x="471" y="198" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="479" y="214" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">14</text>
+  <rect x="562" y="198" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="570" y="214" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">15</text>
+  <rect x="16" y="253" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="24" y="269" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">16</text>
+  <rect x="107" y="253" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="115" y="269" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">17</text>
+  <rect x="198" y="253" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="206" y="269" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">18</text>
+  <rect x="289" y="253" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="297" y="269" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">19</text>
+  <rect x="380" y="253" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="388" y="269" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">20</text>
+  <rect x="471" y="253" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="479" y="269" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">21</text>
+  <rect x="562" y="253" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="570" y="269" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">22</text>
+  <rect x="16" y="308" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="24" y="324" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">23</text>
+  <rect x="107" y="308" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="115" y="324" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">24</text>
+  <rect x="198" y="308" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="206" y="324" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">25</text>
+  <rect x="289" y="308" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="297" y="324" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">26</text>
+  <rect x="380" y="308" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="388" y="324" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">27</text>
+  <rect x="471" y="308" width="88" height="52" rx="4" fill="#161b22"/>
+  <text x="479" y="324" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">28</text>
+  <rect x="562" y="308" width="88" height="52" rx="4" fill="#161b22" opacity="0.3"/>
+  <text x="16" y="385" fill="#8b949e" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Less</text>
+  <rect x="46" y="375" width="12" height="12" rx="2" fill="#161b22"/>
+  <rect x="61" y="375" width="12" height="12" rx="2" fill="#0e4429"/>
+  <rect x="76" y="375" width="12" height="12" rx="2" fill="#006d32"/>
+  <rect x="91" y="375" width="12" height="12" rx="2" fill="#26a641"/>
+  <rect x="106" y="375" width="12" height="12" rx="2" fill="#39d353"/>
+  <text x="125" y="385" fill="#8b949e" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">More</text>
+  <text x="650" y="385" text-anchor="end" fill="#484f58" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">synced 42m ago</text>
 </svg>
