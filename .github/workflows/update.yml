@@ -21,13 +21,20 @@ jobs:
         uses: teoxoy/profile-readme-stats@master
         with:
           token: ${{ secrets.USER_TOKEN }}
+      - name: Generate Claude Code heatmap
+        env:
+          GH_TOKEN: ${{ secrets.USER_TOKEN }}
+        run: |
+          gh api gists/3e0ea07be699f86d94a5e04eb2bf9f94 \
+            --jq '.files["claude-code-stats.json"].content' > /tmp/stats.json
+          python3 scripts/heatmap.py /tmp/stats.json claude-code-heatmap.svg
       - name: Update README.md
         shell: bash
         run: |
           if [[ "$(git status --porcelain)" != "" ]]; then
             git config user.name 'github-actions[bot]'
             git config user.email 'github-actions[bot]@users.noreply.github.com'
-            git add *.md
+            git add *.md *.svg
             git commit -m "Update README.md"
             git push
           fi
