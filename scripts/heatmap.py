@@ -1,37 +1,45 @@
 #!/usr/bin/env python3
-"""Generate a GitHub-style contribution heatmap SVG from Claude Code usage stats."""
+"""Generate a monthly PNL-style calendar SVG showing daily Claude Code token usage."""
 
 import json
 import sys
-from datetime import datetime, timedelta, timezone
+import calendar
+from datetime import datetime, timezone
 
-# GitHub dark theme colors
 COLORS = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
-CELL_SIZE = 12
-CELL_GAP = 2
-CELL_STRIDE = CELL_SIZE + CELL_GAP
-CORNER_RADIUS = 2
+TEXT_DIM = "#484f58"
+TEXT_MID = "#8b949e"
+TEXT_BRIGHT = "#e6edf3"
 
-HEADER_HEIGHT = 36
-MONTH_LABEL_HEIGHT = 20
-DAY_LABEL_WIDTH = 32
-LEGEND_HEIGHT = 30
-PADDING = 16
+CELL_W = 88
+CELL_H = 52
+GAP = 3
+RX = 4
+PAD = 16
+HEADER_H = 44
+WEEKDAY_H = 28
+LEGEND_H = 36
 
-FONT_FAMILY = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-LABEL_STYLE = f'fill="#8b949e" font-size="11" font-family="{FONT_FAMILY}"'
-HEADER_STYLE = f'fill="#e6edf3" font-size="14" font-weight="600" font-family="{FONT_FAMILY}"'
+MONO = "'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace"
+SANS = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
 
-MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
-               "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-DAY_LABELS = {0: "Mon", 2: "Wed", 4: "Fri"}
+WEEKDAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+MONTH_NAMES = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December",
+]
 
 
-def parse_data(raw):
-    daily = {d["date"]: d["tokens"]["total"] for d in raw.get("daily", [])}
-    vibe = raw.get("vibe_score", {})
-    last_synced = raw.get("last_synced", "")
-    return daily, vibe, last_synced
+def format_tokens(n):
+    if n == 0:
+        return ""
+    if n < 1000:
+        return str(n)
+    if n < 100_000:
+        return f"{n / 1000:.1f}k"
+    if n < 1_000_000:
+        return f"{n / 1000:.0f}k"
+    return f"{n / 1_000_000:.1f}M"
 
 
 def relative_time(iso_str):
@@ -76,99 +84,131 @@ def color_for(value, thresholds):
 
 
 def generate_svg(raw):
-    daily, vibe, last_synced = parse_data(raw)
+    daily_data = {d["date"]: d["tokens"]["total"] for d in raw.get("daily", [])}
+    vibe = raw.get("vibe_score", {})
+    last_synced = raw.get("last_synced", "")
 
-    if not daily:
-        dates = []
-    else:
-        all_dates = sorted(daily.keys())
-        start = datetime.strptime(all_dates[0], "%Y-%m-%d").date()
-        end = datetime.strptime(all_dates[-1], "%Y-%m-%d").date()
-        # Pad start to Monday (weekday 0)
-        start -= timedelta(days=start.weekday())
-        # Pad end to Sunday (weekday 6)
-        end += timedelta(days=6 - end.weekday())
-        dates = []
-        d = start
-        while d <= end:
-            dates.append(d)
-            d += timedelta(days=1)
+    today = datetime.now(timezone.utc).date()
+    year, month = today.year, today.month
 
-    non_zero = [v for v in daily.values() if v > 0]
+    weeks = calendar.monthcalendar(year, month)
+    num_weeks = len(weeks)
+
+    non_zero = [v for v in daily_data.values() if v > 0]
     thresholds = quartile_thresholds(non_zero)
 
-    num_weeks = len(dates) // 7 if dates else 0
-    grid_width = num_weeks * CELL_STRIDE
-    total_width = PADDING + DAY_LABEL_WIDTH + grid_width + PADDING
-    total_width = max(total_width, 300)
-    grid_height = 7 * CELL_STRIDE
-    total_height = PADDING + HEADER_HEIGHT + MONTH_LABEL_HEIGHT + grid_height + LEGEND_HEIGHT + PADDING
-
-    grid_x = PADDING + DAY_LABEL_WIDTH
-    grid_y = PADDING + HEADER_HEIGHT + MONTH_LABEL_HEIGHT
+    grid_w = 7 * CELL_W + 6 * GAP
+    grid_h = num_weeks * CELL_H + (num_weeks - 1) * GAP
+    total_w = PAD + grid_w + PAD
+    total_h = PAD + HEADER_H + WEEKDAY_H + grid_h + GAP + LEGEND_H + PAD
 
     parts = []
-    parts.append(f'<svg xmlns="http://www.w3.org/2000/svg" '
-                 f'width="{total_width}" height="{total_height}" '
-                 f'viewBox="0 0 {total_width} {total_height}">')
+    parts.append(
+        f'<svg xmlns="http://www.w3.org/2000/svg" '
+        f'width="{total_w}" height="{total_h}" '
+        f'viewBox="0 0 {total_w} {total_h}">'
+    )
 
-    # Header: emoji + label + score
+    # --- header ---
     emoji = vibe.get("emoji", "")
     label = vibe.get("label", "")
     score = vibe.get("score", "")
-    header_text = f"{emoji} {label}" + (f" — {score}/100" if score else "")
-    parts.append(f'  <text x="{PADDING}" y="{PADDING + 18}" {HEADER_STYLE}>'
-                 f'{header_text}</text>')
+    header_left = f"{emoji} {label}" + (f" \u2014 {score}/100" if score else "")
+    header_right = f"{MONTH_NAMES[month - 1]} {year}"
 
-    # Month labels
-    if dates:
-        month_y = PADDING + HEADER_HEIGHT + 12
-        last_month = -1
-        for week_idx in range(num_weeks):
-            day = dates[week_idx * 7]
-            if day.month != last_month:
-                x = grid_x + week_idx * CELL_STRIDE
-                parts.append(f'  <text x="{x}" y="{month_y}" {LABEL_STYLE}>'
-                             f'{MONTH_NAMES[day.month - 1]}</text>')
-                last_month = day.month
+    hy = PAD + 22
+    parts.append(
+        f'  <text x="{PAD}" y="{hy}" fill="{TEXT_BRIGHT}" '
+        f'font-size="15" font-weight="600" font-family="{SANS}">'
+        f"{header_left}</text>"
+    )
+    parts.append(
+        f'  <text x="{total_w - PAD}" y="{hy}" text-anchor="end" '
+        f'fill="{TEXT_MID}" font-size="13" font-family="{SANS}">'
+        f"{header_right}</text>"
+    )
 
-    # Day labels (Mon, Wed, Fri)
-    for day_idx, name in DAY_LABELS.items():
-        y = grid_y + day_idx * CELL_STRIDE + 10
-        parts.append(f'  <text x="{PADDING}" y="{y}" {LABEL_STYLE}>{name}</text>')
+    # --- weekday headers ---
+    wy = PAD + HEADER_H + 16
+    for i, name in enumerate(WEEKDAYS):
+        x = PAD + i * (CELL_W + GAP) + CELL_W // 2
+        parts.append(
+            f'  <text x="{x}" y="{wy}" text-anchor="middle" '
+            f'fill="{TEXT_MID}" font-size="11" font-family="{MONO}">'
+            f"{name}</text>"
+        )
 
-    # Grid cells
-    for i, date in enumerate(dates):
-        week_idx = i // 7
-        day_idx = i % 7
-        key = date.strftime("%Y-%m-%d")
-        value = daily.get(key, 0)
-        color = color_for(value, thresholds)
-        x = grid_x + week_idx * CELL_STRIDE
-        y = grid_y + day_idx * CELL_STRIDE
-        tooltip = f"{key}: {value:,} tokens" if value else f"{key}: No activity"
-        parts.append(f'  <rect x="{x}" y="{y}" width="{CELL_SIZE}" height="{CELL_SIZE}" '
-                     f'rx="{CORNER_RADIUS}" ry="{CORNER_RADIUS}" fill="{color}">'
-                     f'<title>{tooltip}</title></rect>')
+    # --- calendar grid ---
+    grid_top = PAD + HEADER_H + WEEKDAY_H
+    for row_idx, week in enumerate(weeks):
+        for col_idx, day in enumerate(week):
+            x = PAD + col_idx * (CELL_W + GAP)
+            y = grid_top + row_idx * (CELL_H + GAP)
 
-    # Legend
-    legend_y = grid_y + grid_height + 14
-    parts.append(f'  <text x="{grid_x}" y="{legend_y}" {LABEL_STYLE}>Less</text>')
-    legend_box_x = grid_x + 30
-    for idx, c in enumerate(COLORS):
-        bx = legend_box_x + idx * (CELL_SIZE + 3)
-        by = legend_y - 10
-        parts.append(f'  <rect x="{bx}" y="{by}" width="{CELL_SIZE}" height="{CELL_SIZE}" '
-                     f'rx="{CORNER_RADIUS}" ry="{CORNER_RADIUS}" fill="{c}"/>')
-    more_x = legend_box_x + len(COLORS) * (CELL_SIZE + 3) + 4
-    parts.append(f'  <text x="{more_x}" y="{legend_y}" {LABEL_STYLE}>More</text>')
+            if day == 0:
+                parts.append(
+                    f'  <rect x="{x}" y="{y}" width="{CELL_W}" height="{CELL_H}" '
+                    f'rx="{RX}" fill="{COLORS[0]}" opacity="0.3"/>'
+                )
+                continue
 
-    # Synced time (right-aligned)
-    synced_text = f"synced {relative_time(last_synced)}"
-    parts.append(f'  <text x="{total_width - PADDING}" y="{legend_y}" '
-                 f'text-anchor="end" {LABEL_STYLE}>{synced_text}</text>')
+            key = f"{year}-{month:02d}-{day:02d}"
+            tokens = daily_data.get(key, 0)
+            color = color_for(tokens, thresholds)
+            is_today = day == today.day and month == today.month and year == today.year
 
-    parts.append('</svg>')
+            parts.append(
+                f'  <rect x="{x}" y="{y}" width="{CELL_W}" height="{CELL_H}" '
+                f'rx="{RX}" fill="{color}"/>'
+            )
+            if is_today:
+                parts.append(
+                    f'  <rect x="{x}" y="{y}" width="{CELL_W}" height="{CELL_H}" '
+                    f'rx="{RX}" fill="none" stroke="{TEXT_MID}" stroke-width="1.5"/>'
+                )
+
+            # day number — top-left
+            day_color = TEXT_MID if tokens == 0 else TEXT_BRIGHT
+            parts.append(
+                f'  <text x="{x + 8}" y="{y + 16}" '
+                f'fill="{day_color}" font-size="11" font-family="{MONO}">'
+                f"{day}</text>"
+            )
+
+            # token count — centered
+            if tokens > 0:
+                parts.append(
+                    f'  <text x="{x + CELL_W // 2}" y="{y + 38}" '
+                    f'text-anchor="middle" fill="{TEXT_BRIGHT}" '
+                    f'font-size="14" font-weight="700" font-family="{MONO}">'
+                    f"{format_tokens(tokens)}</text>"
+                )
+
+    # --- legend ---
+    ly = grid_top + grid_h + GAP + 22
+    parts.append(
+        f'  <text x="{PAD}" y="{ly}" fill="{TEXT_MID}" '
+        f'font-size="11" font-family="{SANS}">Less</text>'
+    )
+    box_x = PAD + 30
+    for i, c in enumerate(COLORS):
+        bx = box_x + i * 15
+        parts.append(
+            f'  <rect x="{bx}" y="{ly - 10}" width="12" height="12" '
+            f'rx="2" fill="{c}"/>'
+        )
+    more_x = box_x + len(COLORS) * 15 + 4
+    parts.append(
+        f'  <text x="{more_x}" y="{ly}" fill="{TEXT_MID}" '
+        f'font-size="11" font-family="{SANS}">More</text>'
+    )
+    parts.append(
+        f'  <text x="{total_w - PAD}" y="{ly}" text-anchor="end" '
+        f'fill="{TEXT_DIM}" font-size="11" font-family="{SANS}">'
+        f"synced {relative_time(last_synced)}</text>"
+    )
+
+    parts.append("</svg>")
     return "\n".join(parts)
 
 
