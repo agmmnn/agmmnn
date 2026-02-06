@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="216" viewBox="0 0 300 216">
+  <text x="16" y="34" fill="#e6edf3" font-size="14" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">🔥 ON FIRE — 90/100</text>
+  <text x="48" y="64" fill="#8b949e" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Jan</text>
+  <text x="16" y="82" fill="#8b949e" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Mon</text>
+  <text x="16" y="110" fill="#8b949e" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Wed</text>
+  <text x="16" y="138" fill="#8b949e" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Fri</text>
+  <rect x="48" y="72" width="12" height="12" rx="2" ry="2" fill="#161b22"><title>2026-01-19: No activity</title></rect>
+  <rect x="48" y="86" width="12" height="12" rx="2" ry="2" fill="#0e4429"><title>2026-01-20: 685 tokens</title></rect>
+  <rect x="48" y="100" width="12" height="12" rx="2" ry="2" fill="#26a641"><title>2026-01-21: 5,344 tokens</title></rect>
+  <rect x="48" y="114" width="12" height="12" rx="2" ry="2" fill="#39d353"><title>2026-01-22: 12,723 tokens</title></rect>
+  <rect x="48" y="128" width="12" height="12" rx="2" ry="2" fill="#0e4429"><title>2026-01-23: 152 tokens</title></rect>
+  <rect x="48" y="142" width="12" height="12" rx="2" ry="2" fill="#006d32"><title>2026-01-24: 4,080 tokens</title></rect>
+  <rect x="48" y="156" width="12" height="12" rx="2" ry="2" fill="#0e4429"><title>2026-01-25: 1,142 tokens</title></rect>
+  <rect x="62" y="72" width="12" height="12" rx="2" ry="2" fill="#006d32"><title>2026-01-26: 3,959 tokens</title></rect>
+  <rect x="62" y="86" width="12" height="12" rx="2" ry="2" fill="#39d353"><title>2026-01-27: 12,306 tokens</title></rect>
+  <rect x="62" y="100" width="12" height="12" rx="2" ry="2" fill="#161b22"><title>2026-01-28: No activity</title></rect>
+  <rect x="62" y="114" width="12" height="12" rx="2" ry="2" fill="#161b22"><title>2026-01-29: No activity</title></rect>
+  <rect x="62" y="128" width="12" height="12" rx="2" ry="2" fill="#161b22"><title>2026-01-30: No activity</title></rect>
+  <rect x="62" y="142" width="12" height="12" rx="2" ry="2" fill="#161b22"><title>2026-01-31: No activity</title></rect>
+  <rect x="62" y="156" width="12" height="12" rx="2" ry="2" fill="#26a641"><title>2026-02-01: 5,040 tokens</title></rect>
+  <text x="48" y="184" fill="#8b949e" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Less</text>
+  <rect x="78" y="174" width="12" height="12" rx="2" ry="2" fill="#161b22"/>
+  <rect x="93" y="174" width="12" height="12" rx="2" ry="2" fill="#0e4429"/>
+  <rect x="108" y="174" width="12" height="12" rx="2" ry="2" fill="#006d32"/>
+  <rect x="123" y="174" width="12" height="12" rx="2" ry="2" fill="#26a641"/>
+  <rect x="138" y="174" width="12" height="12" rx="2" ry="2" fill="#39d353"/>
+  <text x="157" y="184" fill="#8b949e" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">More</text>
+  <text x="284" y="184" text-anchor="end" fill="#8b949e" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">synced 20m ago</text>
+</svg>
