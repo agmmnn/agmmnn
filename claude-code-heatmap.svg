@@ -28,8 +28,9 @@
   <rect x="380" y="143" width="88" height="52" rx="4" fill="#39d353"/>
   <text x="388" y="159" fill="#e6edf3" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">6</text>
   <text x="424" y="181" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="700" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">14.0k</text>
-  <rect x="471" y="143" width="88" height="52" rx="4" fill="#161b22"/>
-  <text x="479" y="159" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">7</text>
+  <rect x="471" y="143" width="88" height="52" rx="4" fill="#39d353"/>
+  <text x="479" y="159" fill="#e6edf3" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">7</text>
+  <text x="515" y="181" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="700" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">17.1k</text>
   <rect x="562" y="143" width="88" height="52" rx="4" fill="#161b22"/>
   <text x="570" y="159" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">8</text>
   <rect x="16" y="198" width="88" height="52" rx="4" fill="#161b22"/>
@@ -39,9 +40,9 @@
   <rect x="198" y="198" width="88" height="52" rx="4" fill="#161b22"/>
   <text x="206" y="214" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">11</text>
   <rect x="289" y="198" width="88" height="52" rx="4" fill="#161b22"/>
-  <rect x="289" y="198" width="88" height="52" rx="4" fill="none" stroke="#8b949e" stroke-width="1.5"/>
   <text x="297" y="214" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">12</text>
   <rect x="380" y="198" width="88" height="52" rx="4" fill="#161b22"/>
+  <rect x="380" y="198" width="88" height="52" rx="4" fill="none" stroke="#8b949e" stroke-width="1.5"/>
   <text x="388" y="214" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">13</text>
   <rect x="471" y="198" width="88" height="52" rx="4" fill="#161b22"/>
   <text x="479" y="214" fill="#8b949e" font-size="11" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace">14</text>
@@ -81,5 +82,5 @@
   <rect x="91" y="375" width="12" height="12" rx="2" fill="#26a641"/>
   <rect x="106" y="375" width="12" height="12" rx="2" fill="#39d353"/>
   <text x="125" y="385" fill="#8b949e" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">More</text>
-  <text x="650" y="385" text-anchor="end" fill="#484f58" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">synced 5d ago</text>
+  <text x="650" y="385" text-anchor="end" fill="#484f58" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">synced 1h ago</text>
 </svg>
