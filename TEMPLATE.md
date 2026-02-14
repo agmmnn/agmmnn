@@ -25,7 +25,7 @@ I work primarily with **TypeScript**, **Python**, and **Rust**, passionate about
 * Cli: [syn](https://github.com/agmmnn/syn), [nis](https://github.com/agmmnn/nisanyan-cli), [tdk](https://github.com/agmmnn/tdk-cli), [tureng](https://github.com/agmmnn/turengcli), [etym](https://github.com/agmmnn/etym-cli)
 * [tauri-controls](https://github.com/agmmnn/tauri-controls), [badgewind](https://github.com/agmmnn/badgewind)
 
-❯ &nbsp;**[Posts](https://agmmnn.dev/blog)**
+❯ &nbsp;**[Posts](https://medium.com/@agmmnn)**
 
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
