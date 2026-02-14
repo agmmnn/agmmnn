@@ -1,20 +1,19 @@
 ### Hey! [✨](https://github.com/agmmnn/starred)
 
-It's Gökçe. Ever since I joined GitHub, I pushed **1559** commits, opened **15** issues, submitted **24** pull requests, received **[9716 stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[82 personal](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)** projects, and contributed to **[5 public](https://github.com/pulls?q=author%3Aagmmnn)** repositories.
+It's Gökçe. Ever since I joined GitHub, I pushed **1567** commits, opened **15** issues, submitted **24** pull requests, received **[9718 stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[82 personal](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)** projects, and contributed to **[5 public](https://github.com/pulls?q=author%3Aagmmnn)** repositories.
 
 I work primarily with **TypeScript**, **Python**, and **Rust**, passionate about building interactive, scalable solutions using **AI bots**, **LLMs**, and **real-time communication technologies**. A fan of **terminal UIs**, enjoy exploring **pentesting** and **reverse engineering**, and also enjoy **travel photography** and **videography** in spare time.
 
 [![gpg](https://img.shields.io/badge/gpg-399BB7FF25D68355-313131?style=flat&labelColor=4f4f4f&color=313131)](https://github.com/agmmnn.gpg) [![views](https://komarev.com/ghpvc/?username=agmmnn&style=flat&color=313131&label=views)](https://github.com/agmmnn) [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@agmmnn) [![dev](https://img.shields.io/badge/agmmnn.dev-313e80?style=flat&logo=&logoColor=white)](https://agmmnn.dev/) [![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/agmmnn/datasets)
 
+<!-- VIBE_METER_START -->
+I burned 76.6k tokens across 11 active days, mass using opus 4.5 and 2 other models, sent 258 prompts in 38 sessions, peaking at 20:00 as an Evening Warrior.
+<!-- VIBE_METER_END -->
+
 <!-- ![Claude Code Activity](./claude-code-heatmap.svg) -->
 
 <a href="https://www.youtube.com/watch?v=14CGp0VF2TU&list=PLOiJ3Q6xmFZaAHqyA0Lzbv-D_J5q7q3Ps&index=54">
 <img align="right" src="https://user-images.githubusercontent.com/16024979/246209503-deec26df-5886-4fa3-8935-93c7b6644f82.gif" width="160" /></a>
-
-❯ &nbsp;**[Posts](https://agmmnn.dev/blog)**
-
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
 
 ⁛ &nbsp;**[Projects](https://agmmnn.dev/projects)**
 
@@ -26,3 +25,11 @@ I work primarily with **TypeScript**, **Python**, and **Rust**, passionate about
 * Tools: [fineartdown](https://github.com/agmmnn/fineartdown), [polydown](https://github.com/agmmnn/polydown)
 * Cli: [syn](https://github.com/agmmnn/syn), [nis](https://github.com/agmmnn/nisanyan-cli), [tdk](https://github.com/agmmnn/tdk-cli), [tureng](https://github.com/agmmnn/turengcli), [etym](https://github.com/agmmnn/etym-cli)
 * [tauri-controls](https://github.com/agmmnn/tauri-controls), [badgewind](https://github.com/agmmnn/badgewind)
+
+❯ &nbsp;**[Posts](https://medium.com/@agmmnn)**
+
+<!-- BLOG-POST-LIST:START -->
+- [Test your Webhooks with Cloudflare Tunnel Quickly](https://medium.com/@agmmnn/test-your-webhooks-with-cloudflare-tunnel-quickly-5875f74024b4?source=rss-85784cc232f6------2)
+- [SSL Pinning Bypass For Android Emulators Using Frida](https://medium.com/@agmmnn/ssl-pinning-bypass-for-android-emulators-using-frida-702c6bf84e38?source=rss-85784cc232f6------2)
+- [Installing Burp Suite Certificate in an Android Emulator](https://medium.com/@agmmnn/installing-burp-suite-certificate-in-an-android-emulator-4ad7ece090f6?source=rss-85784cc232f6------2)
+<!-- BLOG-POST-LIST:END -->
