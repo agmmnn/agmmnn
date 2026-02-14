@@ -1,13 +1,13 @@
 ### Hey! [✨](https://github.com/agmmnn/starred)
 
-It's Gökçe. Ever since I joined GitHub, I pushed **1569** commits, opened **15** issues, submitted **24** pull requests, received **[9718 stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[82 personal](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)** projects, and contributed to **[5 public](https://github.com/pulls?q=author%3Aagmmnn)** repositories.
+It's Gökçe. Ever since I joined GitHub, I pushed **1571** commits, opened **15** issues, submitted **24** pull requests, received **[9718 stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[82 personal](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)** projects, and contributed to **[5 public](https://github.com/pulls?q=author%3Aagmmnn)** repositories.
 
 I work primarily with **TypeScript**, **Python**, and **Rust**, passionate about building interactive, scalable solutions using **AI bots**, **LLMs**, and **real-time communication technologies**. A fan of **terminal UIs**, enjoy exploring **pentesting** and **reverse engineering**, and also enjoy **travel photography** and **videography** in spare time.
 
 [![gpg](https://img.shields.io/badge/gpg-399BB7FF25D68355-313131?style=flat&labelColor=4f4f4f&color=313131)](https://github.com/agmmnn.gpg) [![views](https://komarev.com/ghpvc/?username=agmmnn&style=flat&color=313131&label=views)](https://github.com/agmmnn) [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@agmmnn) [![dev](https://img.shields.io/badge/agmmnn.dev-313e80?style=flat&logo=&logoColor=white)](https://agmmnn.dev/) [![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/agmmnn/datasets)
 
 <!-- VIBE_METER_START -->
-**🔥 I burned 76.6k tokens across 11 active days, mass using opus 4.5 and 2 other models, sent 258 prompts in 38 sessions, peaking at 20:00 as an Evening Warrior.**
+<img src="./assets/vibe-meter-logo.svg" height="14"> I burned 76.6k tokens across 11 active days, mass using opus 4.5 and 2 other models, sent 258 prompts in 38 sessions, peaking at 20:00 as an Evening Warrior.
 <!-- VIBE_METER_END -->
 
 <!-- ![Claude Code Activity](./claude-code-heatmap.svg) -->
@@ -29,7 +29,4 @@ I work primarily with **TypeScript**, **Python**, and **Rust**, passionate about
 ❯ &nbsp;**[Posts](https://medium.com/@agmmnn)**
 
 <!-- BLOG-POST-LIST:START -->
-- [Test your Webhooks with Cloudflare Tunnel Quickly](https://medium.com/@agmmnn/test-your-webhooks-with-cloudflare-tunnel-quickly-5875f74024b4?source=rss-85784cc232f6------2)
-- [SSL Pinning Bypass For Android Emulators Using Frida](https://medium.com/@agmmnn/ssl-pinning-bypass-for-android-emulators-using-frida-702c6bf84e38?source=rss-85784cc232f6------2)
-- [Installing Burp Suite Certificate in an Android Emulator](https://medium.com/@agmmnn/installing-burp-suite-certificate-in-an-android-emulator-4ad7ece090f6?source=rss-85784cc232f6------2)
 <!-- BLOG-POST-LIST:END -->
