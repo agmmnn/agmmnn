@@ -27,7 +27,12 @@ jobs:
       #   env:
       #     GH_TOKEN: ${{ secrets.USER_TOKEN }}
       - name: Update vibe-meter text
-        run: python3 scripts/stats_text.py /tmp/vibe-meter-stats.json --replace README.md
+        env:
+          GH_TOKEN: ${{ secrets.USER_TOKEN }}
+        run: |
+          gh api gists/3e0ea07be699f86d94a5e04eb2bf9f94 \
+            --jq '.files["claude-code-stats.json"].content' > /tmp/vibe-meter-stats.json
+          python3 scripts/stats_text.py /tmp/vibe-meter-stats.json --replace README.md
       - name: Update README.md
         shell: bash
         run: |
