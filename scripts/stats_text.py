@@ -70,11 +70,11 @@ def generate_text(raw):
     peak_h = max(hour_values, key=hour_values.get) if hour_values else 0
 
     return (
-        f"I burned {format_tokens(total_tokens)} tokens across {active_days} active days, "
+        f"**🔥 I burned {format_tokens(total_tokens)} tokens across {active_days} active days, "
         f"mass using {top_model}"
         f"{f' and {num_models - 1} other model' + ('s' if num_models > 2 else '') if num_models > 1 else ''}, "
         f"sent {format_tokens(total_prompts)} prompts in {total_sessions} sessions, "
-        f"peaking at {peak_h:02d}:00 as an {peak_phrase(peak_h)}."
+        f"peaking at {peak_h:02d}:00 as an {peak_phrase(peak_h)}.**"
     )
 
 
