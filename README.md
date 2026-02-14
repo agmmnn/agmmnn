@@ -29,4 +29,7 @@ I burned 76.6k tokens across 11 active days, mass using opus 4.5 and 2 other mod
 ❯ &nbsp;**[Posts](https://medium.com/@agmmnn)**
 
 <!-- BLOG-POST-LIST:START -->
+- [Test your Webhooks with Cloudflare Tunnel Quickly](https://medium.com/@agmmnn/test-your-webhooks-with-cloudflare-tunnel-quickly-5875f74024b4?source=rss-85784cc232f6------2)
+- [SSL Pinning Bypass For Android Emulators Using Frida](https://medium.com/@agmmnn/ssl-pinning-bypass-for-android-emulators-using-frida-702c6bf84e38?source=rss-85784cc232f6------2)
+- [Installing Burp Suite Certificate in an Android Emulator](https://medium.com/@agmmnn/installing-burp-suite-certificate-in-an-android-emulator-4ad7ece090f6?source=rss-85784cc232f6------2)
 <!-- BLOG-POST-LIST:END -->
