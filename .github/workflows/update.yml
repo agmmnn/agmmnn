@@ -21,11 +21,11 @@ jobs:
         uses: teoxoy/profile-readme-stats@master
         with:
           token: ${{ secrets.USER_TOKEN }}
-      - uses: agmmnn/vibe-meter@v1
-        with:
-          gist-id: "3e0ea07be699f86d94a5e04eb2bf9f94"
-        env:
-          GH_TOKEN: ${{ secrets.USER_TOKEN }}
+      # - uses: agmmnn/vibe-meter@v1
+      #   with:
+      #     gist-id: "3e0ea07be699f86d94a5e04eb2bf9f94"
+      #   env:
+      #     GH_TOKEN: ${{ secrets.USER_TOKEN }}
       - name: Update vibe-meter text
         run: python3 scripts/stats_text.py /tmp/vibe-meter-stats.json --replace README.md
       - name: Update README.md
