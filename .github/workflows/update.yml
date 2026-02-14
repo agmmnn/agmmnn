@@ -21,13 +21,13 @@ jobs:
         uses: teoxoy/profile-readme-stats@master
         with:
           token: ${{ secrets.USER_TOKEN }}
-      - name: Generate Claude Code heatmap
+      - uses: agmmnn/vibe-meter@v1
+        with:
+          gist-id: "3e0ea07be699f86d94a5e04eb2bf9f94"
         env:
           GH_TOKEN: ${{ secrets.USER_TOKEN }}
-        run: |
-          gh api gists/3e0ea07be699f86d94a5e04eb2bf9f94 \
-            --jq '.files["claude-code-stats.json"].content' > /tmp/stats.json
-          python3 scripts/heatmap.py /tmp/stats.json claude-code-heatmap.svg
+      - name: Update vibe-meter text
+        run: python3 scripts/stats_text.py /tmp/vibe-meter-stats.json --replace README.md
       - name: Update README.md
         shell: bash
         run: |
@@ -38,8 +38,9 @@ jobs:
             git commit -m "Update README.md"
             git push
           fi
-      # - name: Update Blog Posts
-      #   uses: gautamkrishnar/blog-post-workflow@v1
-      #   with:
-      #     feed_list: "https://agmmnn.dev/rss.xml"
-      #     max_post_count: 3
+      - name: Update Blog Posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          # feed_list: "https://agmmnn.dev/rss.xml"
+          feed_list: "https://medium.com/feed/@agmmnn"
+          max_post_count: 3
