@@ -59,7 +59,7 @@ def generate_text(raw):
     # Top model
     model_tokens = {}
     for d in daily:
-        for model, toks in d.get("models", {}).items():
+        for model, toks in (d.get("models") or {}).items():
             model_tokens[model] = model_tokens.get(model, 0) + toks
     top_models = sorted(model_tokens.items(), key=lambda x: -x[1])
     top_model = shorten_model(top_models[0][0]) if top_models else "Claude"
