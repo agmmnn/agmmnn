@@ -32,7 +32,7 @@ jobs:
         run: |
           gh api gists/3e0ea07be699f86d94a5e04eb2bf9f94 \
             --jq '.files["claude-code-stats.json"].content' > /tmp/vibe-meter-stats.json
-          python3 scripts/stats_text.py /tmp/vibe-meter-stats.json --replace README.md
+          python3 scripts/stats_text.py /tmp/vibe-meter-stats.json --replace README.md --logo ./assets/vibe-meter-logo.svg
       - name: Update README.md
         shell: bash
         run: |
