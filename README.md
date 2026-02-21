@@ -1,6 +1,6 @@
 ### Hey! [✨](https://github.com/agmmnn/starred)
 
-It's Gökçe. Ever since I joined GitHub, I pushed **1616** commits, opened **15** issues, submitted **27** pull requests, received **[9734 stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[82 personal](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)** projects, and contributed to **[5 public](https://github.com/pulls?q=author%3Aagmmnn)** repositories.
+It's Gökçe. Ever since I joined GitHub, I pushed **1616** commits, opened **15** issues, submitted **27** pull requests, received **[9732 stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[82 personal](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)** projects, and contributed to **[5 public](https://github.com/pulls?q=author%3Aagmmnn)** repositories.
 
 I work primarily with **TypeScript**, **Python**, and **Rust**, passionate about building interactive, scalable solutions using **AI bots**, **LLMs**, and **real-time communication technologies**. A fan of **terminal UIs**, enjoy exploring **pentesting** and **reverse engineering**, and also enjoy **travel photography** and **videography** in spare time.
 
@@ -29,7 +29,4 @@ I work primarily with **TypeScript**, **Python**, and **Rust**, passionate about
 ❯ &nbsp;**[Posts](https://medium.com/@agmmnn)**
 
 <!-- BLOG-POST-LIST:START -->
-- [Test your Webhooks with Cloudflare Tunnel Quickly](https://medium.com/@agmmnn/test-your-webhooks-with-cloudflare-tunnel-quickly-5875f74024b4?source=rss-85784cc232f6------2)
-- [SSL Pinning Bypass For Android Emulators Using Frida](https://medium.com/@agmmnn/ssl-pinning-bypass-for-android-emulators-using-frida-702c6bf84e38?source=rss-85784cc232f6------2)
-- [Installing Burp Suite Certificate in an Android Emulator](https://medium.com/@agmmnn/installing-burp-suite-certificate-in-an-android-emulator-4ad7ece090f6?source=rss-85784cc232f6------2)
 <!-- BLOG-POST-LIST:END -->
