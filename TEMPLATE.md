@@ -23,6 +23,3 @@ On GitHub, I've pushed **{{ COMMITS }}** commits, opened **{{ ISSUES }}** issues
 * CLI tools: [syn](https://github.com/agmmnn/syn), [nis](https://github.com/agmmnn/nisanyan-cli), [tdk](https://github.com/agmmnn/tdk-cli), [tureng](https://github.com/agmmnn/turengcli), [etym](https://github.com/agmmnn/etym-cli)
 
 ❯ &nbsp;**[Posts](https://medium.com/@agmmnn)**
-
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
