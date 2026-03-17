@@ -33,18 +33,20 @@ jobs:
       #     gh api gists/3e0ea07be699f86d94a5e04eb2bf9f94 \
       #       --jq '.files["claude-code-stats.json"].content' > /tmp/vibe-meter-stats.json
       #     python3 scripts/stats_text.py /tmp/vibe-meter-stats.json --replace README.md --logo ./assets/vibe-meter-logo.svg
-      # - name: Update README.md
-      #   shell: bash
-      #   run: |
-      #     if [[ "$(git status --porcelain)" != "" ]]; then
-      #       git config user.name 'github-actions[bot]'
-      #       git config user.email 'github-actions[bot]@users.noreply.github.com'
-      #       git add *.md *.svg
-      #       git commit -m "Update README.md"
-      #       git push
-      #     fi
-      # - name: Update Blog Posts
-      #   uses: gautamkrishnar/blog-post-workflow@v1
-      #   with:
-      #     feed_list: "https://medium.com/feed/@agmmnn"
-      #     max_post_count: 3
+      - name: Update Blog Posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://medium.com/feed/@agmmnn"
+          max_post_count: 3
+          skip_commit: true
+          enable_keepalive: false
+      - name: Commit README.md
+        shell: bash
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add README.md
+            git commit -m "Update README.md"
+            git push
+          fi
