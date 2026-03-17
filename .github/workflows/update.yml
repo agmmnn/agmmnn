@@ -49,7 +49,9 @@ jobs:
           # feed_list: "https://agmmnn.dev/rss.xml"
           feed_list: "https://medium.com/feed/@agmmnn"
           max_post_count: 3
+          gh_token: ${{ secrets.USER_TOKEN }}
           skip_commit: true
+          enable_keepalive: false
       - name: Commit README updates
         env:
           GH_TOKEN: ${{ secrets.USER_TOKEN }}
