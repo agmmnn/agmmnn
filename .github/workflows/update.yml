@@ -34,12 +34,11 @@ jobs:
       #       --jq '.files["claude-code-stats.json"].content' > /tmp/vibe-meter-stats.json
       #     python3 scripts/stats_text.py /tmp/vibe-meter-stats.json --replace README.md --logo ./assets/vibe-meter-logo.svg
       - name: Update Blog Posts
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          feed_list: "https://medium.com/feed/@agmmnn"
-          max_post_count: 3
-          skip_commit: true
-          enable_keepalive: false
+        run: |
+          python3 scripts/update_blog_posts.py \
+            --feed "https://medium.com/feed/@agmmnn" \
+            --file README.md \
+            --max-posts 3
       - name: Commit README.md
         shell: bash
         run: |
