@@ -1,8 +1,6 @@
 ### Hey! [✨](https://github.com/agmmnn/starred)
 
-I'm Gökçe.
-
-I build AI-native tools, interface experiments, and small products that try to feel fast, useful, and a little different.
+I'm Gökçe. I build AI-native tools, interface experiments, and products that try to feel fast, useful, and a little different.
 
 On GitHub, I've pushed **{{ COMMITS }}** commits, opened **{{ ISSUES }}** issues, submitted **{{ PULL_REQUESTS }}** pull requests, received **[{{ STARS }} stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[{{ REPOSITORIES }} public projects](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)**, and contributed to **[{{ REPOSITORIES_CONTRIBUTED_TO }} public repositories](https://github.com/pulls?q=author%3Aagmmnn)**.
 
