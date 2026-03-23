@@ -16,10 +16,10 @@ On GitHub, I've pushed **{{ COMMITS }}** commits, opened **{{ ISSUES }}** issues
 - [**NotebookLM SDK**: TypeScript/Node.js SDK for NotebookLM](https://github.com/agmmnn/notebooklm-sdk)
 - [**EtyMap**: Etymology map](https://etymap.vercel.app/)
 
-* 📚 Collections: [awesome-blender](https://github.com/agmmnn/awesome-blender), [turkish-nlp-resources](https://github.com/agmmnn/turkish-nlp-resources), [tr-domains](https://github.com/agmmnn/tr-domains)
-* 🛠️ Utilities: [polydown](https://github.com/agmmnn/polydown), [tauri-controls](https://github.com/agmmnn/tauri-controls), [badgewind](https://github.com/agmmnn/badgewind)
-* ⌨️ CLI tools: [syn](https://github.com/agmmnn/syn), [nis](https://github.com/agmmnn/nisanyan-cli), [tdk](https://github.com/agmmnn/tdk-cli), [tureng](https://github.com/agmmnn/turengcli), [etym](https://github.com/agmmnn/etym-cli)
-* 🕵️‍♀️ re: [eksiapi](https://github.com/agmmnn/eksiapi), [fineartdown](https://github.com/agmmnn/fineartdown), [pushkin](https://github.com/agmmnn/pushkin-downloader)
+* 🔮 collections: [awesome-blender](https://github.com/agmmnn/awesome-blender), [turkish-nlp-resources](https://github.com/agmmnn/turkish-nlp-resources), [tr-domains](https://github.com/agmmnn/tr-domains)
+* 🏺 utils: [polydown](https://github.com/agmmnn/polydown), [tauri-controls](https://github.com/agmmnn/tauri-controls), [badgewind](https://github.com/agmmnn/badgewind)
+* ⌨️ cli: [syn](https://github.com/agmmnn/syn), [nis](https://github.com/agmmnn/nisanyan-cli), [tdk](https://github.com/agmmnn/tdk-cli), [tureng](https://github.com/agmmnn/turengcli), [etym](https://github.com/agmmnn/etym-cli)
+* 🩻 re: [eksiapi](https://github.com/agmmnn/eksiapi), [fineartdown](https://github.com/agmmnn/fineartdown), [pushkin](https://github.com/agmmnn/pushkin-downloader)
 
 ❯ &nbsp;**[Posts](https://medium.com/@agmmnn)**
 
