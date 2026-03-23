@@ -1,6 +1,6 @@
 ### Hey! [✨](https://github.com/agmmnn/starred)
 
-I'm Gökçe. I build AI-native tools, interface experiments, and products that try to feel fast, useful, and a little different.
+I'm Gökçe. I build AI-native tools, interface experiments, and small products that try to feel fast, useful, and a little different.
 
 On GitHub, I've pushed **{{ COMMITS }}** commits, opened **{{ ISSUES }}** issues, submitted **{{ PULL_REQUESTS }}** pull requests, received **[{{ STARS }} stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[{{ REPOSITORIES }} public projects](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)**, and contributed to **[{{ REPOSITORIES_CONTRIBUTED_TO }} public repositories](https://github.com/pulls?q=author%3Aagmmnn)**.
 
@@ -16,9 +16,10 @@ On GitHub, I've pushed **{{ COMMITS }}** commits, opened **{{ ISSUES }}** issues
 - [**NotebookLM SDK**: TypeScript/Node.js SDK for NotebookLM](https://github.com/agmmnn/notebooklm-sdk)
 - [**EtyMap**: Etymology map](https://etymap.vercel.app/)
 
-* Collections: [awesome-blender](https://github.com/agmmnn/awesome-blender), [turkish-nlp-resources](https://github.com/agmmnn/turkish-nlp-resources), [tr-domains](https://github.com/agmmnn/tr-domains)
-* Utilities: [fineartdown](https://github.com/agmmnn/fineartdown), [polydown](https://github.com/agmmnn/polydown), [tauri-controls](https://github.com/agmmnn/tauri-controls), [badgewind](https://github.com/agmmnn/badgewind)
-* CLI tools: [syn](https://github.com/agmmnn/syn), [nis](https://github.com/agmmnn/nisanyan-cli), [tdk](https://github.com/agmmnn/tdk-cli), [tureng](https://github.com/agmmnn/turengcli), [etym](https://github.com/agmmnn/etym-cli)
+* 📚 Collections: [awesome-blender](https://github.com/agmmnn/awesome-blender), [turkish-nlp-resources](https://github.com/agmmnn/turkish-nlp-resources), [tr-domains](https://github.com/agmmnn/tr-domains)
+* 🛠️ Utilities: [polydown](https://github.com/agmmnn/polydown), [tauri-controls](https://github.com/agmmnn/tauri-controls), [badgewind](https://github.com/agmmnn/badgewind)
+* ⌨️ CLI tools: [syn](https://github.com/agmmnn/syn), [nis](https://github.com/agmmnn/nisanyan-cli), [tdk](https://github.com/agmmnn/tdk-cli), [tureng](https://github.com/agmmnn/turengcli), [etym](https://github.com/agmmnn/etym-cli)
+* 🕵️‍♀️ re: [eksiapi](https://github.com/agmmnn/eksiapi), [fineartdown](https://github.com/agmmnn/fineartdown), [pushkin](https://github.com/agmmnn/pushkin-downloader)
 
 ❯ &nbsp;**[Posts](https://medium.com/@agmmnn)**
 
