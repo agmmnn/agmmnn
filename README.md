@@ -1,25 +1,26 @@
 ### Hey! [✨](https://github.com/agmmnn/starred)
 
-I'm Gökçe. I build AI-native tools, interface experiments, and small products that try to feel fast, useful, and a little different.
+I'm Gökçe. Here, I build AI-native tools, dig into internals, and experiment with interfaces. Shipping fast, learning in public, and embracing a bit of chaos.
 
-On GitHub, I've pushed **2185** commits, submitted **35** pull requests, received **[11645 stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[109 public projects](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)**.
+On GitHub, I've pushed **2189** commits, received **[11654 stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[110 public projects](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)**.
 
-[![gpg](https://img.shields.io/badge/gpg-399BB7FF25D68355-313131?style=flat&labelColor=4f4f4f&color=313131)](https://github.com/agmmnn.gpg) [![views](https://komarev.com/ghpvc/?username=agmmnn&style=flat&color=313131&label=views)](https://github.com/agmmnn) [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@agmmnn) [![dev](https://img.shields.io/badge/agmmnn.dev-313e80?style=flat&logo=&logoColor=white)](https://agmmnn.dev/) [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-ffcc4d?style=flat&logo=huggingface&logoColor=&color=black)](https://huggingface.co/agmmnn) [![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/agmmnn/datasets)
+[![gpg](https://img.shields.io/badge/gpg-399BB7FF25D68355-313131?style=flat&labelColor=4f4f4f&color=313131)](https://github.com/agmmnn.gpg) [![views](https://komarev.com/ghpvc/?username=agmmnn&style=flat&color=313131&label=views)](https://github.com/agmmnn) [![X](https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white)](https://x.com/gokmrd) [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@agmmnn) [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-ffcc4d?style=flat&logo=huggingface&logoColor=&color=black)](https://huggingface.co/agmmnn) [![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/agmmnn/datasets)
 
 <a href="https://www.youtube.com/watch?v=14CGp0VF2TU&list=PLOiJ3Q6xmFZaAHqyA0Lzbv-D_J5q7q3Ps&index=54">
 <img align="right" src="https://user-images.githubusercontent.com/16024979/246209503-deec26df-5886-4fa3-8935-93c7b6644f82.gif" width="160" /></a>
 
-⁛ &nbsp;**[Projects](https://agmmnn.dev/projects)**
+⁛ &nbsp;**Projects**
 
 - [**Tauri UI**: Create modern desktop apps](https://github.com/agmmnn/tauri-ui)
 - [**Ray Menu**: Radial pie menu for the web](https://github.com/agmmnn/ray-menu)
 - [**NotebookLM SDK**: TypeScript/Node.js SDK for NotebookLM](https://github.com/agmmnn/notebooklm-sdk)
 - [**EtyMap**: Etymology map](https://etymap.vercel.app/)
 
-* 🔮 collections: [awesome-blender](https://github.com/agmmnn/awesome-blender), [turkish-nlp-resources](https://github.com/agmmnn/turkish-nlp-resources), [tr-domains](https://github.com/agmmnn/tr-domains)
-* 🏺 utils: [polydown](https://github.com/agmmnn/polydown), [tauri-controls](https://github.com/agmmnn/tauri-controls), [badgewind](https://github.com/agmmnn/badgewind)
-* ⌨️ cli: [syn](https://github.com/agmmnn/syn), [nis](https://github.com/agmmnn/nisanyan-cli), [tdk](https://github.com/agmmnn/tdk-cli), [tureng](https://github.com/agmmnn/turengcli), [etym](https://github.com/agmmnn/etym-cli)
-* 🩻 re: [eksiapi](https://github.com/agmmnn/eksiapi), [fineartdown](https://github.com/agmmnn/fineartdown), [pushkin](https://github.com/agmmnn/pushkin-downloader)
+- 🔮 `collections` · [awesome-blender](https://github.com/agmmnn/awesome-blender), [turkish-nlp-resources](https://github.com/agmmnn/turkish-nlp-resources), [tr-domains](https://github.com/agmmnn/tr-domains)
+- 🏺 `utils` · [polydown](https://github.com/agmmnn/polydown), [tauri-controls](https://github.com/agmmnn/tauri-controls), [badgewind](https://github.com/agmmnn/badgewind)
+- 🧩 `extensions` · [x-bulk-clean](https://github.com/agmmnn/x-bulk-clean), [bookmark-otter](https://github.com/agmmnn/bookmark-otter)
+- ⌨️ `cli` · [syn](https://github.com/agmmnn/syn), [nis](https://github.com/agmmnn/nisanyan-cli), [tdk](https://github.com/agmmnn/tdk-cli), [tureng](https://github.com/agmmnn/turengcli), [etym](https://github.com/agmmnn/etym-cli)
+- 🩻 `reverse-eng` · [eksiapi](https://github.com/agmmnn/eksiapi), [fineartdown](https://github.com/agmmnn/fineartdown), [pushkin](https://github.com/agmmnn/pushkin-downloader)
 
 ❯ &nbsp;**[Posts](https://medium.com/@agmmnn)**
 
