@@ -2,7 +2,7 @@
 
 I'm Gökçe. Here, I build AI-native tools, dig into internals, and experiment with interfaces. Shipping fast, learning in public, and embracing a bit of chaos.
 
-On GitHub, I've pushed **2200** commits, received **[11694 stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[110 public projects](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)**.
+On GitHub, I've pushed **2200** commits, received **[11700 stars](https://github.com/agmmnn?tab=repositories&sort=stargazers&type=source)** across **[110 public projects](https://github.com/agmmnn?tab=repositories&q=&type=public&language=&sort=)**.
 
 [![gpg](https://img.shields.io/badge/gpg-399BB7FF25D68355-313131?style=flat&labelColor=4f4f4f&color=313131)](https://github.com/agmmnn.gpg) [![views](https://komarev.com/ghpvc/?username=agmmnn&style=flat&color=313131&label=views)](https://github.com/agmmnn) [![X](https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white)](https://x.com/gokmrd) [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@agmmnn) [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-ffcc4d?style=flat&logo=huggingface&logoColor=&color=black)](https://huggingface.co/agmmnn) [![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/agmmnn/datasets)
 
